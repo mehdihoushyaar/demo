@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "IRANSansXV";
+  src:
+    url("./fonts/variable/IRANSansXV.woff2") format("woff2-variations"),
+    url("./fonts/variable/IRANSansXV.woff") format("woff-variations"),
+    url("./variable/IRANSansXV.woff") format("woff");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  font-stretch: 75% 125%;
+}
+
+html {
+  font-family: "IRANSansXV";
+  -moz-font-feature-settings: "ss02";
+  -webkit-font-feature-settings: "ss02";
+  font-feature-settings: "ss02";
+  font-variation-settings: "dots" 8;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
